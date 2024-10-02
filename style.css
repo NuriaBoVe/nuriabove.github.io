@@ -519,6 +519,10 @@ form{
     font-size: calc(8px + 0.8vw);
 }
 
+textarea{
+    resize: inherit;;
+}
+
 #btn{
     width: 60%;
     background-color: #7330F0;
