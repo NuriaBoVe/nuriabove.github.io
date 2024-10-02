@@ -1096,6 +1096,10 @@ footer a:hover{
         width: 25%;
     }
 
+    .hello-intro{
+        font-size: calc(10px + 2vw);
+    }
+
 }
 
 
