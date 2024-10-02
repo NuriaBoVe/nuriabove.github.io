@@ -933,6 +933,10 @@ footer a:hover{
         height: 95vh;
     }
 
+    .hello-intro{
+        padding-top: 45px;
+    }
+
     .photo{
         width: 90%;
         max-width: 400px;
