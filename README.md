@@ -16,8 +16,8 @@ Frameworks y librerías: React, Angular, Bootstrap.
 Versionado: Git y GitHub para control de versiones y colaboración.  
 
 ### Lo que estoy buscando:  
-Estoy buscando prácticas en empresas de Valencia donde pueda aportar mi conocimiento como desarrollador Front-End y seguir aprendiendo de profesionales experimentados.  
-Estoy comprometido en demostrar lo que he aprendido a través de los proyectos en mi portfolio y continuar mi crecimiento en este emocionante campo.
+Estoy buscando prácticas en empresas de Valencia donde pueda aportar mi conocimiento como desarrolladora Front-End y seguir aprendiendo de profesionales experimentados.  
+Estoy comprometida en demostrar lo que he aprendido a través de los proyectos en mi portfolio y continuar mi crecimiento en este emocionante campo.
 
 ## Contacto
 Email: nuria5bv@gmail.com  
