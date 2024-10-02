@@ -11,7 +11,7 @@ body {
 }
 
 section {
-    background-image: url(../extras/elementos/Fondo.png);
+    background-image: url(extras/elementos/Fondo.png);
     background-size: cover;
     padding-bottom: 45px;
 }
@@ -135,8 +135,10 @@ main {
 
 #intro {
     height: 95vh;
-    background-image: url(../extras/elementos/fondo-invertido.png);
-    padding-bottom: 0;
+    background-image: url(extras/elementos/fondo-inicio.png);
+    background-size: cover;
+    background-position: bottom right;
+    background-repeat: no-repeat;
     position: relative;
 }
 
@@ -172,22 +174,6 @@ main {
 
 .underline {
     border-bottom: 7px solid #7330F0;
-}
-
-.photo{
-    width: 40%;
-    height: auto;
-    min-width: 500px;
-    position: absolute;
-    bottom: 0px;
-    right: 50px;
-}
-
-.photo img{
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
-    height: auto;
 }
 
 /* FIN - Inicio */
@@ -611,7 +597,7 @@ footer a:hover{
 /* Página de Agradecimiento */
 
 .body-thanks{
-    background-image: url(../extras/elementos/Fondo.png);
+    background-image: url(extras/elementos/Fondo.png);
     background-size: cover;
 }
 
@@ -794,11 +780,8 @@ footer a:hover{
         height: 80vh;
     }
 
-    .photo{
-        min-width: 420px;
-        bottom: 0px;
-        right: 30px;
-        z-index: 998;
+    .hello-intro{
+        font-size: calc(16px + 2vw);
     }
 
     /* FIN - Inicio */
@@ -940,18 +923,11 @@ footer a:hover{
     /* Inicio */
 
     #intro{
-        height: 95vh;
+        background-position-x: 85%;
     }
 
     .hello-intro{
         padding-top: 45px;
-    }
-
-    .photo{
-        width: 90%;
-        max-width: 400px;
-        min-width: 0;
-        right: 15px;
     }
 
     /* FIN - Inicio */
@@ -1048,58 +1024,15 @@ footer a:hover{
 
 /* FIN - Pantalla -600px */
 
-@media screen and (max-height: 825px) {
+@media screen and (max-height: 450px) {
+    
+    #intro{
+        background-position-y: 70%;
+    } 
 
-    .photo{
-        width: 35%;
-        min-width: 0px;
+    .hello{
+        width: 75%;
     }
-
-}
-
-@media screen and (max-height: 680px) {
-
-    .photo{
-        right: 50px;
-    }
-
-    .hello-intro{
-        font-size: calc(18px + 2vw);
-        padding-top: 35px;
-    }
-
-}
-
-@media screen and (max-height: 600px) {
-
-    .photo{
-        right: 70px;
-    }
-
-    .hello-intro{
-        font-size: calc(14px + 2vw);
-    }
-
-}
-
-@media screen and (max-height: 570px) {
-
-    .photo{
-        width: 30%;
-    }
-
-}
-
-@media screen and (max-height: 475px) {
-
-    .photo{
-        width: 25%;
-    }
-
-    .hello-intro{
-        font-size: calc(10px + 2vw);
-    }
-
 }
 
 
