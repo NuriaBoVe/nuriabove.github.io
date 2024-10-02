@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuria Bosch | Front End</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="extras/elementos/logo-web.png" type="image/x-icon">
+</head>
+<body>
+    <!-- Menu -->
+    <nav class="menu">
+        <ul class="side-nav">
+            <!-- Menu/Logo -->
+            <li class="logo">
+                <img class="img-logo" src="extras/elementos/logo.png" alt="Logo de una N">
+                <a href="#intro">
+                    <h1>Nuria Bosch Ventura</h1>
+                    <h4>Front End Developer</h4>
+                </a>
+            </li>
+            <!-- FIN - Menu/Logo -->
+            <!-- Menu/Sobre Mi -->
+            <li class="links-nav">
+                <a href="#about">
+                    <img class="icono-nav" src="extras/elementos/User.png" alt="Icono Sobre Mi">
+                    <h3>Sobre Mi</h3>
+                </a>
+            </li>
+            <!-- Fin Menu/Sobre Mi -->
+            <!-- Menu/Trayectoria -->
+            <li class="links-nav">
+                <a href="#path">
+                    <img class="icono-nav" src="extras/elementos/Path.png" alt="Icono Trayectoria">
+                    <h3>Trayectoria</h3>
+                </a>
+            </li>
+            <!-- FIN - Menu/Trayectoria -->
+            <!-- Menu/Proyectos -->
+            <li class="links-nav">
+                <a href="#projects">
+                    <img class="icono-nav" src="extras/elementos/Projects.png" alt="Icono Proyectos">
+                    <h3>Proyectos</h3>
+                </a>
+            </li>
+            <!-- FIN - Menu/Proyectos -->
+            <!-- Menu/Habilidades -->
+            <li class="links-nav">
+                <a href="#skills">
+                    <img class="icono-nav" src="extras/elementos/Skills.png" alt="Icono Habilidades">
+                    <h3>Habilidades</h3>
+                </a>
+            </li>
+            <!-- FIN - Menu/Habilidades -->
+            <!-- Menu/Contacto -->
+            <li class="links-nav">
+                <a href="#contact">
+                    <img class="icono-nav" src="extras/elementos/Contact.png" alt="Icono Contacto">
+                    <h3>Contacto</h3>
+                </a>
+            </li>
+            <!-- FIN - Menu/Contacto -->
+            <!-- Menu/Descraga CV -->
+            <li class="links-nav download-cv">
+                <a href="extras/CV-Nuria-Bosch-Ventura.pdf" download>
+                    <img class="icono-nav" src="extras/elementos/CV.png" alt="Icono CV">
+                    <h3>Descargar CV</h3>
+                </a>
+            </li>
+            <!-- FIN - Menu/Descraga CV -->
+        </ul>
+    </nav>
+    <!-- FIN - Menu -->
+    <!-- Menu Small -->
+    <nav class="menu-small">
+        <div class="btn-menu">
+            <a id="open" href="#"><img class="img-logo-small" src="extras/elementos/logo.png" alt="Logo de una N"></a>
+            <div class="name-small">
+                <h3>Nuria Bosch Ventura</h3>
+                <h6>Front End Developer</h6>
+            </div>
+        </div>
+    </nav>
+    <nav class="menu-small-left" id="nav">
+        <ul class="side-nav">
+            <!-- Menu/Sobre Mi -->
+            <li class="links-nav">
+                <a href="#about" class="options">
+                    <img class="icono-nav" src="extras/elementos/User.png" alt="Icono Sobre Mi">
+                    <h3>Sobre Mi</h3>
+                </a>
+            </li>
+            <!-- Fin Menu/Sobre Mi -->
+            <!-- Menu/Trayectoria -->
+            <li class="links-nav">
+                <a href="#path" class="options">
+                    <img class="icono-nav" src="extras/elementos/Path.png" alt="Icono Trayectoria">
+                    <h3>Trayectoria</h3>
+                </a>
+            </li>
+            <!-- FIN - Menu/Trayectoria -->
+            <!-- Menu/Proyectos -->
+            <li class="links-nav">
+                <a href="#projects" class="options">
+                    <img class="icono-nav" src="extras/elementos/Projects.png" alt="Icono Proyectos">
+                    <h3>Proyectos</h3>
+                </a>
+            </li>
+            <!-- FIN - Menu/Proyectos -->
+            <!-- Menu/Habilidades -->
+            <li class="links-nav">
+                <a href="#skills" class="options">
+                    <img class="icono-nav" src="extras/elementos/Skills.png" alt="Icono Habilidades">
+                    <h3>Habilidades</h3>
+                </a>
+            </li>
+            <!-- FIN - Menu/Habilidades -->
+            <!-- Menu/Contacto -->
+            <li class="links-nav">
+                <a href="#contact" class="options">
+                    <img class="icono-nav" src="extras/elementos/Contact.png" alt="Icono Contacto">
+                    <h3>Contacto</h3>
+                </a>
+            </li>
+            <!-- FIN - Menu/Contacto -->
+            <!-- Menu/Descraga CV -->
+            <li class="links-nav download-cv">
+                <a href="extras/CV-Nuria-Bosch-Ventura.pdf" download class="options">
+                    <img class="icono-nav" src="extras/elementos/CV.png" alt="Icono CV">
+                    <h3>Descargar CV</h3>
+                </a>
+            </li>
+            <!-- FIN - Menu/Descraga CV -->
+        </ul>
+    </nav>
+    <!-- FIN - Menu Small -->
+    <div id="overlay" class="overlay"></div>
+    <!-- Contenido Principal -->
+    <main>
+        <!-- Introducción -->
+        <section id="intro">
+            <!-- Presentación -->
+            <div class="hello">
+                <h1 class="hello-intro">
+                    La tecnología es solo una herramienta; 
+                    <br>
+                    la <span class="color">creatividad</span> es el <span class="underline">verdadero motor</span>.
+                </h1>
+            </div>
+            <div class="photo">
+                <img src="extras/elementos/myself.png" alt="Nuria Bosch Ventura">
+            </div>
+            <!-- FIN - Presentación -->
+        </section>
+        <!-- FIN - Introducción -->
+        <!-- Sobre Mi -->
+        <section id="about">
+            <h3 class="section-header">Sobre Mi</h3>
+            <!-- Mi lema es: -->
+            <blockquote>
+                <h3 class="text-line">“If you fail to plan, you are planning to fail!”</h3>
+                <h5 class="author">- Benjamin Franklin</h5>
+            </blockquote>
+            <!-- FIN - Mi lema es: -->
+            <!-- Descripción Sobre Mi -->
+            <div class="part-about">
+                <p>
+                    Siempre he perseguido desafíos que me apasionen y me impulsen a mejorar. 
+                    Mi trayectoria en el desarrollo front-end ha sido un camino de aprendizaje continuo, 
+                    donde cada nueva tecnología y concepto que he aprendido me ha ayudado a fortalecer mis habilidades 
+                    y prepararme para enfrentar retos más grandes.
+                </p>
+                <p>
+                    Me encanta el proceso de crear, prestar atención a cada detalle y enfrentar retos que realmente me motiven. 
+                    Tengo ganas de seguir creciendo y dejar mi huella en proyectos que me inspiren, 
+                    dentro de un equipo donde pueda seguir aprendiendo y contribuyendo al éxito colectivo.
+                </p>
+                <!-- Palabras Foco -->
+                <p class="focus">HTML <span>/</span> CSS <span>/</span> JavaScript <span>/</span> Accesibilidad <span>/</span> Diseño Web Adaptable</p>
+                <!-- FIN - Palabras Foco -->
+            </div>
+            <!-- FIN - Descripción Sobre Mi -->
+        </section>
+        <!-- FIN - Sobre Mi -->
+        <!-- Trayectoria Profesional / Educación -->
+        <section id="path">
+            <h3 class="section-header">Trayectoria</h3>
+            <div class="path-section">
+                <!-- Educación -->
+                <h3 class="path-info">Educación</h3>
+                <div class="study">
+                    <!-- Grado Universitario -->
+                    <div class="path-study">
+                        <div class="title-path">
+                            <h4 class="path-title-study">Grado</h4>
+                            <img class="icon-path-study" src="extras/path/upv.png" alt="Logo de la Universidad Poletécnica de Valencia">
+                        </div>
+                        <div class="title-path-info">
+                            <h4 class="path-title">Ingenieria en Telecomunicaciones;<br>Sonido e Imagen</h4>
+                            <h6 class="path-subtitle">Universidad Poletécnica de Valencia | 2016 - 2020</h6>
+                        </div>
+                    </div>
+                    <!-- FIN - Grado Universitario -->
+                    <!-- Master -->
+                    <div class="path-study">
+                        <div class="title-path">
+                            <h4 class="path-title-study">Master</h4>
+                            <img class="icon-path-study" src="extras/path/upv.png" alt="Logo de la Universidad Poletécnica de Valencia">
+                        </div>
+                        <div class="title-path-info">
+                            <h4 class="path-title">Postproducción Digital</h4>
+                            <h6 class="path-subtitle">Universidad Poletécnica de Valencia | 2020 - 2021</h6>
+                        </div>
+                    </div>
+                    <!-- FIN - Master -->
+                    <!-- Curso -->
+                    <div class="path-study">
+                        <div class="title-path">
+                            <h4 class="path-title-study">Curso</h4>
+                            <img class="icon-path-study" src="extras/path/tokioschool.png" alt="Logo de Tokio School">
+                        </div>
+                        <div class="title-path-info">
+                            <h4 class="path-title">Front-End Developer</h4>
+                            <h6 class="path-subtitle">Tokio School | 2024</h6>
+                        </div>                        
+                    </div>
+                    <!-- FIN - Curso -->
+                </div>
+                <!-- FIN - Educación -->
+                <!-- Experiencia Laboral -->
+                <h3 class="path-info">Experiencia Laboral</h3>
+                <div class="study">
+                    <div class="path-experience">
+                        <div class="title-path">
+                            <h4 class="path-title-study">Salesforce Developer</h4> 
+                            <img class="icon-path" src="extras/path/nttdata.png" alt="Logo NTT Data">                            
+                        </div>
+                        <div class="title-path-info-job">
+                            <h6 class="path-subtitle-job">NTT DATA | 2021 - 2023</h6>
+                            <p class="path-subtitle-job">Empresa global de servicios de IT y negocios que ayuda a sus clientes a transformarse digitalmente, con presencia en más de 50 países.</p>
+                        </div>                        
+                        <ul>
+                            <li>
+                                <span>Proyecto CPQ:</span> Contribuí a la creación de un catálogo personalizado para un cliente en el ámbito de las telecomunicaciones, y a mejorar la eficiencia del proceso de ventas. 
+                            </li>
+                            <li>
+                                <span>Proyecto Interno Net Zero:</span> Contribuí a la implementación de la iniciativa Net Zero, configurando Salesforce para respaldar metas de sostenibilidad. 
+                            </li>
+                            <li>
+                                <span>Proyecto Desarrollo con Apex:</span> Trabajé en la optimización de procesos y en la entrega de soluciones mejoradas para garantizar un rendimiento óptimo y adaptado a las necesidades del cliente.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- FIN - Experiencia Laboral -->
+            </div>
+        </section>
+        <!-- FIN - Trayectoria Profesional / Educación -->
+        <!-- Proyectos -->
+        <section id="projects">
+            <h3 class="section-header">Proyectos</h3>
+            <div class="projects-info">
+                <h2>Work in progress...</h2>
+                <p>Actualmente estoy trabajando en varios proyectos para demostrar mis habilidades y capacidad creativa. <br>Estos desarrollos reflejan mi compromiso y pasión por la tecnología y el diseño.</p>
+            </div>
+        </section>
+        <!-- FIN - Proyectos -->
+        <!-- Habilidades -->
+        <section id="skills">
+            <h3 class="section-header">Habilidades</h3>
+            <!-- Front-End -->
+            <div class="skills-section">
+                <h4 class="skills-text">Front-End</h4>
+                <div class="icon-lines">
+                    <div class="icon-text">
+                        <img src="extras/skills/html5.png" alt="Logo HTML5" class="icons">
+                        HTML5
+                    </div>
+                    <div class="icon-text">
+                        <img src="extras/skills/css3.png" alt="Logo CSS3" class="icons">
+                        CSS
+                    </div>
+                    <div class="icon-text">
+                        <img src="extras/skills/js.png" alt="Logo JavaScript" class="icons">
+                        Javascript
+                    </div>
+                    <div class="icon-text">
+                        <img src="extras/skills/bootstrap.png" alt="Logo Bootstrap" class="icons">
+                        Bootstrap
+                    </div>
+                    <div class="icon-text">
+                        <img src="extras/skills/jquery.png" alt="Logo jQuery" class="icons">
+                        jQuery
+                    </div>
+                    <div class="icon-text">
+                        <img src="extras/skills/react.png" alt="Logo React" class="icons">
+                        React
+                    </div>
+                    <div class="icon-text">
+                        <img src="extras/skills/angular.png" alt="Logo Angular" class="icons">
+                        Angular
+                    </div>
+                    <div class="icon-text">
+                        <img src="extras/skills/figma.png" alt="Logo Figma" class="icons">
+                        Figma
+                    </div>
+                </div>
+            </div>
+            <!-- FIN - Front-End -->
+            <!-- Otros -->
+            <div class="skills-section">
+                <h4 class="skills-text">Otros</h4>
+                <div class="icon-lines">
+                    <div class="icon-text">
+                        <img src="extras/skills/github.png" alt="Logo Github" class="icons">
+                        Github
+                    </div>
+                    <div class="icon-text">
+                        <img src="extras/skills/java.png" alt="Logo Java" class="icons">
+                        Java
+                    </div>
+                    <div class="icon-text">
+                        <img src="extras/skills/sql.png" alt="Logo SQL" class="icons">
+                        SQL
+                    </div>
+                    <div class="icon-text">
+                        <img src="extras/skills/excel.png" alt="Logo Excel" class="icons">
+                        Excel
+                    </div>
+                    <div class="icon-text">
+                        <img src="extras/skills/salesforce.png" alt="Logo Salesforce" class="icons">
+                        Salesforce
+                    </div>
+                    <div class="icon-text">
+                        <img src="extras/skills/vlocity.png" alt="Logo Vlocity" class="icons">
+                        Vlocity
+                    </div>
+                    <div class="icon-text">
+                        <img src="extras/skills/photoshop.png" alt="Logo Photoshop" class="icons">
+                        Photoshop
+                    </div>
+                    <div class="icon-text">
+                        <img src="extras/skills/davinci.png" alt="Logo Davinci Resolve" class="icons">
+                        Davinci Resolve
+                    </div>
+                </div>
+            </div>
+            <!-- FIN - Otros -->
+        </section>
+        <!-- FIN - Habilidades -->
+        <!-- Contacto -->
+        <section id="contact">
+            <h3 class="section-header">Contacto</h3>
+            <div class="intro-contact-form">
+                <!-- Descripción Contacto -->
+                <div class="intro-contact">
+                    <h2>¡Trabajemos Juntos!</h2>
+                    <p> 
+                        Actualmente estoy buscando prácticas como Desarrolladora Front-End en
+                        <span class="color-info">Valencia</span> en modalidad <span class="underline-info">presencial/híbrida</span>, 
+                        o en cualquier parte de <span class="color-info">España</span> en <span class="underline-info">remoto</span>.
+                    </p>
+                    <p>
+                        Si crees que mi perfil puede encajar con lo que buscas, 
+                        <br>
+                        ¡no dudes en ponerte en contacto conmigo!
+                    </p>
+                </div>
+                <!-- FIN - Descripción Contacto -->
+                <!-- Formulario Contacto -->
+                <div class="form-group">
+                    <form action="https://formsubmit.co/nuria5bv@gmail.com" method="POST">
+                        <div class="form-inputs">
+                            <!-- Nombre -->
+                            <label for="name">Nombre:</label>
+                            <input type="text" name="name" id="name" placeholder="Nombre" required>
+                            <!-- FIN - Nombre -->
+                            <!-- Email -->
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email" placeholder="Email" required>
+                            <!-- FIN - Email -->
+                            <!-- Mensaje -->
+                            <label for="message">Mensaje:</label>
+                            <textarea name="message" id="message" cols="30" rows="5" placeholder="..." required></textarea>
+                            <!-- FIN - Mensaje -->
+                            <!-- Botón de Enviar -->
+                            <input id="btn" class="btn" type="submit" value="Enviar">
+                            <input type="hidden" name="_next" value="html/send.html">
+                            <input type="hidden" name="_captcha" value="false">
+                            <!-- FIN Botón de Enviar -->
+                        </div>
+                    </form>
+                </div>
+                <!-- FIN - Formulario Contacto -->
+            </div>
+        </section>
+        <!-- FIN - Contacto -->
+    </main>
+    <!-- FIN - Contenido Principal -->
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <!-- Footer/Contenido -->
+            <div class="footer-contact">
+                <p class="footer-info">Nuria Bosch Ventura</p>
+                <p class="footer-info">nuria5bv@gmail.com</p>
+                <p class="footer-info">Valencia, España</p>
+            </div>
+            <!-- FIN - Footer/Contenido -->
+            <!-- Footer/Redes Sociales -->
+            <div class="footer-media">
+                <a href="https://www.linkedin.com/in/nuria-bosch/" target="_blank">Linkedin</a>
+                <a href="">GitHub</a>
+            </div>
+            <!-- FIN - Footer/Redes Sociales -->
+            <!-- Footer/Link Referencias -->
+            <div class="footer-links">
+                <a href="#intro">Inicio</a>
+                <a href="#about">Sobre Mi</a>
+                <a href="#path">Trayectoria</a>
+                <a href="#projects">Proyectos</a>
+                <a href="#skills">Habilidades</a>
+                <a href="#contact">Contacto</a>
+            </div>
+            <!-- FIN - Footer/Link Referencias -->
+        </div>
+    </footer>
+    <!-- FIN - Footer -->
+    <script src="main.js"></script>
+</body>
+</html>
