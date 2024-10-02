@@ -1033,6 +1033,10 @@ footer a:hover{
     .hello{
         width: 75%;
     }
+
+    .hello-intro{
+        padding-top: 25px;
+    }
 }
 
 
