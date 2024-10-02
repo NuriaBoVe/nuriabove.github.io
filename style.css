@@ -1036,7 +1036,7 @@ footer a:hover{
 
 }
 
-@media screen and (max-height: 450px) {
+@media screen and (max-height: 360px) {
     
     .hello-intro{
         padding-top: 25px;
