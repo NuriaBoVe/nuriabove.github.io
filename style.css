@@ -1045,6 +1045,11 @@ footer a:hover{
         right: 50px;
     }
 
+    .hello-intro{
+        font-size: calc(18px + 2vw);
+        padding-top: 35px;
+    }
+
 }
 
 @media screen and (max-width: 600px) and (max-height: 600px) {
@@ -1052,6 +1057,10 @@ footer a:hover{
     .photo{
         width: 65%;
         right: 70px;
+    }
+
+    .hello-intro{
+        font-size: calc(14px + 2vw);
     }
 
 }
