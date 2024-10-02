@@ -140,6 +140,7 @@ main {
     background-position: bottom right;
     background-repeat: no-repeat;
     position: relative;
+    padding-bottom: 45px;
 }
 
 .hello {
@@ -551,8 +552,7 @@ footer{
 }
 
 .footer-content{
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 40px 0px;
     display: flex;
     flex-direction: column;
 }
@@ -578,6 +578,7 @@ footer{
 .footer-links{
     display: flex;
     justify-content: center;
+    padding: 0px 20px;
     gap: 40px;
 }
 
@@ -985,7 +986,8 @@ footer a:hover{
     }
     
     .footer-contact{
-        gap: 40px;
+        flex-wrap: wrap;
+        gap: 20px;
     }
     
     .footer-media{
@@ -1041,7 +1043,7 @@ footer a:hover{
     .hello-intro{
         padding-top: 25px;
     }
-    
+
 }
 
 
