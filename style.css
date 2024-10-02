@@ -142,6 +142,7 @@ main {
 
 .hello {
     width: 95%;
+    position: relative;
 }
 
 .hello-intro {
@@ -1047,10 +1048,18 @@ footer a:hover{
 
 /* FIN - Pantalla -600px */
 
-@media screen and (max-width: 600px) and (max-height: 680px) {
+@media screen and (max-height: 825px) {
 
     .photo{
-        width: 75%;
+        width: 35%;
+        min-width: 0px;
+    }
+
+}
+
+@media screen and (max-height: 680px) {
+
+    .photo{
         right: 50px;
     }
 
@@ -1061,10 +1070,9 @@ footer a:hover{
 
 }
 
-@media screen and (max-width: 600px) and (max-height: 600px) {
+@media screen and (max-height: 600px) {
 
     .photo{
-        width: 65%;
         right: 70px;
     }
 
@@ -1073,3 +1081,22 @@ footer a:hover{
     }
 
 }
+
+@media screen and (max-height: 570px) {
+
+    .photo{
+        width: 30%;
+    }
+
+}
+
+@media screen and (max-height: 475px) {
+
+    .photo{
+        width: 25%;
+    }
+
+}
+
+
+
