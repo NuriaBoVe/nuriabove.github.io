@@ -486,6 +486,7 @@ blockquote {
     font-size: calc(10px + 1vw);
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 10px;
+    line-height: 1.6;
 }
 
 .color-info{
@@ -496,7 +497,7 @@ blockquote {
 }
 
 .underline-info{
-    border-bottom: 5px solid #7330F0;
+    border-bottom: 4px solid #7330F0;
 }
 
 form{
@@ -876,6 +877,14 @@ footer a:hover{
     .intro-contact {
         margin-bottom: 50px;
         width: 100%;
+    }
+    
+    .color-info{
+        padding: 2px;  
+    }
+    
+    .underline-info{
+        border-bottom: 3px solid #7330F0;
     }
 
     .form-group {
